@@ -2,18 +2,24 @@
 #include <stdlib.h>
 #include <time.h>
 
+
 /**
- * main - prints a random number
- * Return: always 0
+ * main - print random numbers and checks
+ * if positive
+ * if negative
+ * if zero
+ * Return: Always 0
  */
 int main(void)
 {
-	int n; /*declaration of n*/
+	int n;
 
-	srand(time(NULL));
-	n = rand() % 201 - 100;
+	srand(time(NULL)); /* seed the random number generator with current time */
 
-	printf("%d ", n);
+	n = rand() % 21 - 10; /* generate a random number between -10 and 10 */
+
+	printf("%d\n", n); /* print the number*/
+
 	if (n > 0)
 	{
 	printf("is positive\n");
