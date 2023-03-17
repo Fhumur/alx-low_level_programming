@@ -14,9 +14,9 @@ int main(void)
 {
 	int n;
 
-	srand(time(NULL)); /* seed the random number generator with current time */
+	srand(time(0)); /* seed the random number generator with current time */
 
-	n = rand() % 21 - 10; /* generate a random number between -10 and 10 */
+	n = rand() - RAND_MAX / 2; /* generate a random number */
 
 	printf("%d ", n); /* print the number*/
 
