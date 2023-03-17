@@ -18,7 +18,7 @@ int main(void)
 
 	n = rand() % 21 - 10; /* generate a random number between -10 and 10 */
 
-	printf("%d\n", n); /* print the number*/
+	printf("%d ", n); /* print the number*/
 
 	if (n > 0)
 	{
