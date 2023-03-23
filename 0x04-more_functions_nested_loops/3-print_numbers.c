@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - prints 
+ * print_numbers - prints
  * Retun: the numbers
  */
 
@@ -14,5 +14,4 @@ void print_numbers(void)
 		_putchar(x + '0');
 	}
 	_putchar('\n');
-}
-		
+}		
