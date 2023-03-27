@@ -3,7 +3,6 @@
  * swap_int - swaps the values of two integers
  * @x: integer to swap
  * @y: integer to swap
- * @n: extra integer slot
  */
 void swap_int(int *x, int *y)
 {
@@ -13,4 +12,3 @@ void swap_int(int *x, int *y)
 	*x = *y;
 	*y = n;
 }
-
